@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState, useCallback } from "react";
-import lottie, { AnimationItem } from "lottie-web";
+import lottie, { type AnimationItem } from "lottie-web";
 import "./preloader-test.css";
 
 /**

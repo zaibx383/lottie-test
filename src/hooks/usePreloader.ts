@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect, useCallback } from "react";
-import lottie, { AnimationItem } from "lottie-web";
+import lottie, { type AnimationItem } from "lottie-web";
 
 /**
  * Optimized Preloader Hook

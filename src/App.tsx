@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from "react";
-import lottie, { AnimationItem } from "lottie-web";
+import lottie, { type AnimationItem } from "lottie-web";
 import "./index.css";
 
 type RendererType = "svg" | "canvas" | "html";
