@@ -64,7 +64,6 @@ export const usePreloader = (
       renderer: renderer,
       loop: false,
       autoplay: true,
-      // Use animationData directly if provided (avoids network request)
       ...(animationData
         ? { animationData }
         : { path: "/lottie/lottie.json" }),
